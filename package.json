@@ -5,12 +5,12 @@
 	"author": "wrangler@cloudflare.com",
 	"license": "MIT OR Apache-2.0",
 	"bugs": {
-		"url": "https://github.com/cloudflare/wrangler-action/issues"
+		"url": "https://github.com/TIGER21-LLC/wrangler-action/issues"
 	},
-	"homepage": "https://github.com/cloudflare/wrangler-action#readme",
+	"homepage": "https://github.com/TIGER21-LLC/wrangler-action#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/cloudflare/wrangler-action.git"
+		"url": "git+https://github.com/TIGER21-LLC/wrangler-action.git"
 	},
 	"keywords": [
 		"script",
