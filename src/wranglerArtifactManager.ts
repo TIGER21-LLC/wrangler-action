@@ -45,8 +45,12 @@ export type OutputEntryVersionUpload = z.infer<typeof OutputEntryVersionUpload>;
 const OutputEntryVersionUpload = OutputEntryBase.merge(
 	z.object({
 		type: z.literal("version-upload"),
+		/** The id of the uploaded version */
+		version_id: z.string().optional(),
 		/** The preview URL associated with this version upload */
 		preview_url: z.string().optional(),
+		/** The preview alias URL associated with this version upload */
+		preview_alias_url: z.string().optional(),
 	}),
 );
 
